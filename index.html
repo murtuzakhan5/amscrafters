@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>AMS Crafters</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo (2).png" rel="icon">
+  <link href="assets/img/logo (2).png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Arsha
+  * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    /* .cont p::before {
+      content: "💻";
+      
+    } */
+     .whatsapp{
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      text-align: right;
+      z-index: 10;
+      transition: 0.5s;
+
+
+     }
+     .whatsapp img{
+      width: 30%;
+      transition: all ease-in-out;
+      transition: 0.5s;
+      
+     }
+     .whatsapp img:hover{
+      transform: translateY(-10px);
+transition: all ease-in-out;
+transition: 0.5s;
+
+      opacity: 0.8;
+
+     }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <div class="whatsapp">
+    <a href="https://wa.me/923281838852" target="_blank" class="whatsapp-img">
+      <img src="assets/img/whatsappicon.png" alt="WhatsApp" >
+    </a>
+  </div>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo (2).png" alt="logo">
+        <!-- <h1 class="sitename">Arsha</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+         
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#pricing">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Better Solutions For Your Business</h1>
+            <p>Crafting Tomorrow's Solutions Today.</p>
+            <div class="d-flex">
+              <a href="#pricing" class="btn-get-started">Get Started</a>
+              <a href="./assets/img/video.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              <b>Welcome to AMS CRAFTERS </b> <br>
+              We're a full-service digital agency dedicated to helping businesses thrive in the online world. Our team of experts is passionate about creating innovative solutions that drive real results.
+            </p>
+            <p><b>Our Mission</b></p>
+            <p>Our mission is to empower businesses to reach their full potential through tailored digital services. We believe in building strong relationships, understanding our clients' unique needs, and delivering exceptional work that exceeds expectations.
+            </p>
+            <p><b>Our Values
+            </b></p>
+            <p></p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Creativity: We think outside the box to bring fresh ideas to the table.              </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Collaboration: We work closely with our clients to ensure seamless communication.
+              </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Excellence: We strive for perfection in every project we take on.
+              </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Innovation: We stay ahead of the curve with the latest trends and technologies.
+
+              </span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p><b>Our Services
+            </b></p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Web Development</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>UI/UX Design</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>SEO</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Web Management</span></li>
+            </ul>
+            <p><b>Our Team
+            </b></p>
+            <p>Meet our talented team of experts, each with their own unique skills and expertise. From developers to designers, our team is dedicated to delivering top-notch work.
+            </p>
+            <p><b>Why Choose Us?
+            </b></p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Personalized approach to each project              </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Proven track record of success
+              </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span> Constant innovation and improvement
+              </span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Transparent communication and collaboration</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>"Crafting Solutions with Precision and Skill."
+            </h3>
+            <p class="fst-italic">
+              "Proficiency Unleashed."
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>HTML & CSS</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>PHP</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>React.js</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              <div class="progress">
+                <span class="skill"><span>Express.js</span> <i class="val">95%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              <div class="progress">
+                <span class="skill"><span>SEO</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              <div class="progress">
+                <span class="skill"><span>Wordpress</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+             
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>"Quality You Can Trust."
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i><img src="	https://www.logicspice.com/app/webroot/img/images/services/serv_1.png" alt=""></i></div>
+              <h4><a href="" class="stretched-link text-primary">Web Development</a></h4>
+              <!-- <hr class="text-primary" style="height: 4px;"> -->
+              <hr class="bg-primary" style="height:4px;border-width:0;">
+
+              <div class="cont">
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon1.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Responsive Web design</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon2.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Custom Wb development</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon3.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">E-commerce Development</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon4.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Content Management System</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon6.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">SEO optimization</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon5.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Web application development</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon7.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Website Maintenance</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/webdevelopment/web-design-icon8.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Website Analytic</p></i><br><br>
+             
+            </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i><img src="https://www.logicspice.com/app/webroot/img/images/services/serv_16.png" alt=""></i></div>
+              <h4><a href="" class="stretched-link text-primary">Wordpress Development</a></h4>
+              <hr class="bg-primary" style="height:4px;border-width:0;">
+
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/laravel-new-icon1.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">WordPress web solutions
+              </p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/lara/wordpres-web-icon1.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">WordPress Solutions for Migration</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/wordpres-web-icon2.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Plug-in Development</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon3.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Third Party Application Integration</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/wordpres-web-icon3.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">WordPress CMS
+                </p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon5.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Design And Theme Integration</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/wordpres-web-icon4.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">WordPress shopping cart development</p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon7.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Customer Support and Maintenance</p></i><br><br>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i><img src="https://www.logicspice.com/app/webroot/img/images/services/serv_26.png" alt=""></i></div>
+              <h4><a href="" class="stretched-link text-primary">Landing Page</a></h4>
+              <hr class="bg-primary" style="height:4px;border-width:0;">
+
+              <div class="cont">
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/dynamic_icon.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Dynamic Integration
+              </p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/callaction_icon.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Impactful Call to Action</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/user_friendly_icon.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">User friendly Layout
+              </p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/attractive_structure_icon.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Attractive Structure
+                </p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/design_flaxi_icon.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Design Flexibility
+              </p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/seo_fr_icon.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">SEO Friendly</p></i><br><br>
+             
+             
+            </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i><img src="	https://www.logicspice.com/app/webroot/img/images/services/serv_8.png" alt=""></i></div>
+              <h4><a href="" class="stretched-link text-primary">PHP Web Development</a></h4>
+              <hr class="bg-primary" style="height:4px;border-width:0;">
+
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/phpweb-web-new-icon1.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP Content Management System
+              </p></i><br><br>
+              <i><img src="		https://www.logicspice.com/app/webroot/img/images/lara/advanced-web-new-icon2.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP E-commerce
+                </p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/lara/advanced-web-new-icon3.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP Open Source Framework
+              </p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon3.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP Programming For Shopping Cart</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon4.png
+                " alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">Social Networking Solutions
+
+
+
+                </p></i><br><br>
+              <i><img src="https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon5.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP Design And Theme Integration</p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/lara/advanced-web-new-icon4.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP Migration Services
+              </p></i><br><br>
+              <i><img src="	https://www.logicspice.com/app/webroot/img/images/lara/codeigniter-new-icon7.png" alt="" style="width: 35px;"><p style="display: inline;padding: 0.5rem;">PHP Customer Relationship Management</p></i><br><br>            </div>
+          </div><!-- End Service Item -->
+
+         
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Call To Action</h3>
+            <p>Transform Your Brand with AMS CRAFTERS - Contact Us Today!</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>"Highlights of Our Best Work."
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/booking3.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 1</h4>
+                <p>Movie Booking System</p>
+                <!-- <a href="assets/img/portfolio/booking3.PNG" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="booking-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/port2.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 2</h4>
+                <p>Home Direct Eyecare</p>
+                <!-- <a href="assets/img/portfolio/port2.PNG" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="eye-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/start2.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 3</h4>
+                <p>Start-up</p>
+                <!-- <a href="assets/img/portfolio/start2.PNG" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="start_details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/diff1.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 4</h4>
+                <p>FunZone</p>
+                <!-- <a href="assets/img/portfolio/diff1.PNG" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="fun_details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/nike.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 5</h4>
+                <p>Nikeee</p>
+                <!-- <a href="assets/img/portfolio/nike.png" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="nikee-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/ramadan1.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 6</h4>
+                <p>E-commerce </p>
+                <!-- <a href="assets/img/portfolio/ramadan1.PNG" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="ramadan-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/game2.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 7</h4>
+                <p>Game Warrior</p>
+                <!-- <a href="assets/img/portfolio/game2.PNG" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="game-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/law1.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 8</h4>
+                <p>Law firm</p>
+                <!-- <a href="assets/img/portfolio/law1.png" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="law-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/electronic1.PNG" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Website 9</h4>
+                <p>Sky Electronic</p>
+                <!-- <a href="assets/img/portfolio/electronic1.PNG" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="electronic-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>"Teamwork Makes the Dream Work."
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/me.jpeg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Murtuza khan</h4>
+                <span>Full Stack Development</span>
+                <p>Passionate Full Stack Developer with a strong foundation in both front-end and back-end technologies, specializing in creating dynamic and responsive web applications. Committed to delivering innovative solutions and seamless user experiences.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/rehman.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Abdul Rehman Baig</h4>
+                <span>Back-End Web Development</span>
+                <p>Passionate back-end developer specializing in building robust and scalable web applications. Experienced in optimizing server-side performance and ensuring seamless integration of databases and APIs. Committed to delivering efficient and maintainable code for innovative digital solutions.</p>
+              
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/sufiyan.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sufiyan Hussain </h4>
+                <span>Frond End Web Development</span>
+                <p>Passionate Front-End Developer with a knack for crafting visually stunning and user-friendly web applications. Skilled in HTML, CSS, JavaScript, and modern frameworks, I transform ideas into interactive digital experiences.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/bilal.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Bilal Haider</h4>
+                <span>MERN Stack Developer</span>
+                <p>Passionate MERN Stack Developer with a knack for building dynamic and responsive web applications. Skilled in turning complex problems into elegant solutions through full-stack development.</p>
+                
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Let's Collaborate !</h2>
+        <p>Connect with Our Team.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3> Basic Package</h3>
+              <h4><sup>$</sup>88<span></span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Static Custom or CMS Website Following Client Design (No API Integration)</span></li>
+                <li><i class="bi bi-check"></i> <span>5-day delivery
+                  Unlimited Revisions</span></li>
+                <li><i class="bi bi-check"></i> <span>Functional website</span></li>
+                <li><i class="bi bi-check"></i> <span>1 page,
+                  Content upload,
+                  5 plugins/extensions</span></li>
+               
+                  <li><i class="bi bi-check"></i>Hosting setup,
+                    Social media icons <span>
+                  
+                     </span></li>
+              <a href="#" class="buy-btn">Order Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Standard Package
+              </h3>
+              <h4><sup>$</sup>200<span></span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Functional website,
+                  5 pages,
+                  Content upload</span></li>
+                <li><i class="bi bi-check"></i> <span>8 plugins/extensions,
+                  E-commerce functionality,
+                  5 products</span></li>
+                <li><i class="bi bi-check"></i> <span>Payment processing,
+                  Opt-in form</span></li>
+                <li><i class="bi bi-check"></i> <span>Speed optimization,
+                  Hosting setup</span></li>
+                <li><i class="bi bi-check"></i> <span>Social media icons</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Order Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Premium Package
+              </h3>
+              <h4><sup>$</sup>320<span></span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Functional website,
+                  10 pages,
+                  Content upload,
+                  10 plugins/extensions</span></li>
+                <li><i class="bi bi-check"></i> <span>E-commerce functionality,
+                  10 products,
+                  Payment processing</span></li>
+                <li><i class="bi bi-check"></i> <span>Opt-in form,
+                  Autoresponder integration,
+                  Speed optimization</span></li>
+                <li><i class="bi bi-check"></i> <span>Hosting setup</span></li>
+                <li><i class="bi bi-check"></i> <span>Social media icons</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Order Now</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>"Outstanding service!"
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"Outstanding work! Delivered exactly what I needed ahead of schedule. Highly recommend!"
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"A true professional. Delivered exactly what I envisioned with minimal direction."
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"Professional and skilled freelancer. Great communication throughout the project. Will hire again!"
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"Very satisfied with the results. The freelancer understood my requirements perfectly."
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/544/718/non_2x/profile-icon-design-free-vector.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>"Fast, reliable, and talented. My project was completed flawlessly. Thank you!"
+                  </span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Need Help? Check Our FAQs
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What services do you offer?
+                </h3>
+                <div class="faq-content">
+                  <p>I offer a range of front-end development services including website design, responsive design, UI/UX design, and front-end optimization.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>What technologies do you specialize in?
+                </h3>
+                <div class="faq-content">
+                  <p>I specialize in HTML, CSS, JavaScript, SEO, PHP  and frameworks/libraries like React,Laravel, Vue.js, and Angular. I also have experience with Bootstrap, jQuery, and CSS preprocessors like SASS and LESS.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Can you create responsive websites?
+
+                </h3>
+                <div class="faq-content">
+                  <p>Yes, all the websites I create are fully responsive, ensuring they look and function perfectly on all devices, including desktops, tablets, and smartphones.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>How do you handle project timelines?
+
+                </h3>
+                <div class="faq-content">
+                  <p>I provide an estimated timeline based on the project scope and complexity. Regular updates and milestone deliveries ensure that the project stays on track.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Do you provide SEO optimization?
+
+                </h3>
+                <div class="faq-content">
+                  <p>Yes, I can implement basic SEO best practices in the HTML structure and provide guidance on further SEO strategies.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>"Get in Touch: We're Here to Help!"</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Gulshan-e-Iqbal</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+923281838852</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>contact@amscrafters.tech
+                  </p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57893.12020383672!2d67.05020558321482!3d24.921165980560254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb338b808bfd6b1%3A0x997b1a02c2570822!2sGulshan-e-Iqbal%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1723319318121!5m2!1sen!2s" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form  action="https://api.web3forms.com/submit" method="POST" >
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="hidden" name="access_key" value="ed5fba96-6042-4294-a0c6-ac8443aa1f1f">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                
+
+                  <button type="submit" name="btn">Send Message</button>
+                  <!-- <input type="submit" name="btn" id="" value="Send message"> -->
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+  
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">AMS Crafters</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Gulshan-e-Iqbal</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+923281838852</span></p>
+            <p><strong>Email:</strong> <span>contact@amscrafters.tech</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Wordpress Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Website Maintenance</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">Landing Page</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#services">PHP Web developer</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="https://x.com/AmsCrafter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61561511147572"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/amscrafter/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/ams-crafters/"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">AMS Crafters</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="#">AMS Crafters</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
